@@ -1,5 +1,5 @@
  
-/*Create new Repository */
+/*Create new Repository 
 
  1) git Init Int_Sin
 
@@ -10,3 +10,13 @@
  4 git remote add origin "URL"
 
  5 git push -u origin Int_Sin
+
+
+ Adding To existent branch
+
+    git status
+
+    git add .
+    git commit -m "Add to existing file"
+
+    git push origin branchName */
