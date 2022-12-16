@@ -1,0 +1,12 @@
+ 
+/*Create new Repository */
+
+ 1) git Init Int_Sin
+
+ 2) git add .
+
+ 3 git commit -m "intial commit"
+
+ 4 git remote add origin "URL"
+
+ 5 git push -u origin Int_Sin
