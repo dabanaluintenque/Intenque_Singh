@@ -26,5 +26,17 @@ Adding To existent branch
  6)   git push 
 
 
- To change to another branch Run
-    git checkout   branch_Name
+     To Create a new branch
+        git branch new_branch
+
+    To Delete a branch
+        git branch -d branch_name 
+
+    To change to another branch Run
+        git checkout   branch_Name
+
+    
+
+
+
+
