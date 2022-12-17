@@ -1,0 +1,42 @@
+ 
+ Start a new git Repositore
+
+	https://docs.github.com/en/get-started/importing-your-projects-to-github/importing-source-code-to-github/adding-locally-hosted-code-to-github
+
+Create new Repository 
+
+ 1) git Init Int_Sin
+
+ 2) git add .
+
+ 3) git commit -m "intial commit"
+
+ 4) git remote add origin "URL"
+
+ 5) git push -u origin Int_Sin
+
+
+Adding To existent branch
+
+ 1)   git branch
+ 2)   git pull
+ 3)   git status
+ 4)   git add .
+ 5)   git commit -m "Expalin what you add"
+ 6)   git push 
+
+
+     To Create a new branch
+        git branch new_branch
+
+    To Delete a branch
+        git branch -d branch_name 
+
+    To change to another branch Run
+        git checkout   branch_Name
+
+    
+
+
+
+

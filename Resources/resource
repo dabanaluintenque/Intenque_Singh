@@ -1,0 +1,32 @@
+ How to start Js project:
+
+		https://seikyung.com/README-Postgres.html
+
+
+ How to connect SqLite to Js:
+
+	https://www.sqlitetutorial.net/sqlite-nodejs/connect/
+
+
+ Database:	
+
+	Company Table
+
+	    Create table Company(
+  		 companyId Int,
+  		  Name varchar(20),
+   		  Primary key (companyId)
+  	     );
+
+	Product Table
+
+	    Create table Product 
+		   ( ProductId Int, Name varchar (20), Quantity Int, Primary key (ProductId), 
+	           CompanyId Int, Constraint c_fk Foreign Key (CompanyId)
+                    References Company (CompanyId) ON Delete Cascade );
+
+     Alter Table Product
+     Add Constraint com_fk
+     FOREIGN KEY (CompanyId)
+     References Company (CompanyId)
+     On DELETE CASCADE;
