@@ -2,7 +2,8 @@
   font-family: "Times New Roman", Times, serif;
   text-align: center;
   overflow: hidden;
-  background-color: #f1f1f1;
+  /* background-color: #f1f1f1; */
+  background-color: #f2f4f2;
   padding: 20px 10px;
 }
 
@@ -39,7 +40,23 @@
   height: 200px;
 }
 
+#Surface_Go_3_Image {
+  width: 276px; 
+  height: 200px;
+}
+
 p {
   font-family: "Times New Roman", Times, serif;
   text-align: center;
+  font-weight: bold;
+}
+
+#button_row {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+}
+
+button {
+  background-color: black;
+  color: white;
 }
