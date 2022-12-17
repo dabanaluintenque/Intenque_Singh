@@ -1,0 +1,4 @@
+1.) When you hover over one of the products, the quantity will appear of each product will appear.
+
+
+

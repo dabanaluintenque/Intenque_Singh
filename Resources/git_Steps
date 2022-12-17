@@ -22,7 +22,7 @@ Adding To existent branch
  2)   git pull
  3)   git status
  4)   git add .
- 5)   git commit -m "Expalin what you add"
+ 5)   git commit -m "Explain what you add"
  6)   git push 
 
 
