@@ -22,20 +22,20 @@ Adding To existent branch
  2)   git pull
  3)   git status
  4)   git add .
- 5)   git commit -m "Expalin what you add"
+ 5)   git commit -m "Explain what you add"
  6)   git push 
 
 
-     To Create a new branch
-        git branch new_branch
+ How to Create a new branch
+    git branch new_branch
 
-    To Delete a branch
-        git branch -d branch_name 
+How to Delete a branch
+    git branch -d branch_name 
 
-    To change to another branch Run
-        git checkout   branch_Name
+How to change to another branch Run
+    git checkout   branch_Name
 
-    How to merge into a new branch
+How to merge into a new branch
 
     Ex: to merge into main
         1) make sure you are in main branch
