@@ -1,6 +1,8 @@
 var express = require('express');
 var router = express.Router();
+var path = require("path");
 const sqlite3 = require('sqlite3').verbose();
+
 
 let db = new sqlite3.Database('./routes/Intenque_Singh.db', sqlite3.OPEN_READONLY, (err)=>{
 
@@ -17,6 +19,19 @@ router.get('/', function(req, res, next) {
  res.render('index', { title: 'Intenque_Singh' })
 
 }); 
+
+router.get('/insert', function(req, res, next){
+    res.sendFile(path.join(__dirname, '..', 'public', 'insert.html'));
+})
+
+router.get('/update', function(req, res, next){
+    res.sendFile(path.join(__dirname, '..', 'public', 'update.html'));
+});
+
+router.get('/delete', function(req, res, next){
+    res.sendFile(path.join(__dirname, '..','public','delete.html'))
+})
+
 
 /*db.close((err) => {
     if (err) {
