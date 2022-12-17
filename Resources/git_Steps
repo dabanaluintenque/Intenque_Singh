@@ -35,6 +35,12 @@ Adding To existent branch
     To change to another branch Run
         git checkout   branch_Name
 
+    How to merge into a new branch
+
+    Ex: to merge into main
+        1) make sure you are in main branch
+        2) git merge branch_name (Ex: Int_Sin)
+
     
 
 
