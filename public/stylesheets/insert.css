@@ -1,0 +1,53 @@
+#my_Main_Header {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    overflow: hidden;
+    background-color: black;
+    height: 50px;
+  }
+
+  u {
+    color: white;
+  }
+
+  #Prompt_Header {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+  }
+
+  form {
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+  }
+
+  #Add_Product_Form {
+        height:200px;
+        font-size:14pt;
+        text-align: center;
+  }
+
+  .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: black;
+    border-color: black;
+  }
+
+a:link { text-decoration: none; color:white}
+
+a:visited { text-decoration: none; color:white}
+
+a:hover { text-decoration: none; color:white}
+
+a:active { text-decoration: none; color:white}
+
+input {
+    text-align: center;
+}
+
+#cancel_button {
+    text-align: right;
+}

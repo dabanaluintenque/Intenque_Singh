@@ -59,13 +59,34 @@ p {
 #button_row {
   text-align: center;
   font-family: "Times New Roman", Times, serif;
+  /* display: block; */
 }
 
-button {
+/* button {
   background-color: black;
   color: white;
+} */
+
+a:link { text-decoration: none; color:white}
+
+
+a:visited { text-decoration: none; color:white}
+
+
+a:hover { text-decoration: none; color:white}
+
+
+a:active { text-decoration: none; color:white}
+
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: black;
+  border-color: black;
 }
 
-u {
-  color: white;
+@media only screen and (max-width: 775px) {
+  #button_row {
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    display: block;
+  }
 }
