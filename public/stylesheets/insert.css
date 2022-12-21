@@ -10,9 +10,14 @@
     color: white;
   }
 
+  input::placeholder {
+    font: 15px/3 times;
+}
+
   #Prompt_Header {
     font-family: "Times New Roman", Times, serif;
     text-align: center;
+    margin-left: 80px;
   }
 
   form {
@@ -30,19 +35,22 @@
         font-size:14pt;
         text-align: center;
   }
-
+  /* style="background-color: black; border:black;" */
   #cancel_button {
     font-family: 'Times New Roman', Times, serif;
     text-align: right;
     color:white; 
-    border:black"
+    border:black;
+    width: 300px;
+    margin-right: 60px;
   }
 
-  #submit_button {
+  #insert_button {
+    background-color: black;
     font-family: 'Times New Roman', Times, serif;
-    text-align: left;
-    color:white; 
-    border:black;
+    border: black;
+    width: 300px;
+    margin-left: 98px;
   }
 
 
