@@ -10,28 +10,15 @@
         <a href="/"><h1 id="my_Main_Header">Apple and Microsoft Products</a><br></h1>
         <br><br><h3 id="Prompt_Header"><b>Please enter product information to delete an existing product</b></h3><br><br>
 
-        <form name="Add_Product_Form" id="Add_Product_Form">
-            <label for="product_name">Product Name:</label>
-            <input type="text" id="product_name" name="product_name" placeholder="ex. Iphone 14"><br><br>
-            <label for="company_name">Company Name:</label>
-            <input type="text" id="company_name" name="company_name" placeholder="ex. Apple"><br><br>
-            <!-- <label for="quantity_amt">Quantity:</label>
-            <input type="text" id="quantity_amt" name="quantity_amt" placeholder="ex. 3"> -->
+        <form action="/delete" method="post" name="Add_Product_Form" id="Add_Product_Form">
+            <fieldset>
+                <label for="product_name">Product Name:</label>
+                <input type="text" id="product_name" name="ProductName" placeholder="ex. Iphone 14" required><br><br>
+                <label for="company_name">CompanyId:</label>
+                <input type="text" id="company_Id" name="CompanyId" placeholder="ex. Apple" required><br><br>
+                <button type="submit" class="btn btn-primary" id="delete_button">Delete</button>
+                <button type="reset" class="btn btn-primary" style="background-color: black; border:black; width:300px">Cancel</button>
+            </fieldset>
         </form>
-
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    <!-- style="background-color: black; font-family:'Times New Roman', Times, serif; border:black;" -->
-                    <button type="submit" class="btn btn-primary" id="delete_button">Delete</button>
-                </div>
-                <div class="col" id="cancel_button" >
-                    <!-- style="background-color: black; border:black;" -->
-                    <a href="/delete" type="button" class="btn btn-primary" style="background-color: black; border:black; width:300px">Cancel</a>
-                </div>
-            </div>
-        </div>
-
-
     </body>
 </html>

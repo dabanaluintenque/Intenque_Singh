@@ -7,7 +7,6 @@ xh.send();
 
 function Info() {
   let allData = JSON.parse(xh.response);
-
   let rows = allData.map((row) => (
     <tr key={JSON.stringify(row)}>
       <td>{row.ProductId}</td>
