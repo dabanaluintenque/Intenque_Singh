@@ -1,0 +1,67 @@
+#my_Main_Header {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    overflow: hidden;
+    background-color: black;
+    height: 50px;
+  }
+
+  u {
+    color: white;
+  }
+
+  input::placeholder {
+    font: 15px/3 times;
+}
+
+  #Prompt_Header {
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+    margin-left: 80px;
+  }
+
+  form {
+    font-family: "Times New Roman", Times, serif;
+  }
+
+  label {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+  }
+
+  #Add_Product_Form {
+        height:200px;
+        font-size:14pt;
+        text-align: center;
+  }
+  /* style="background-color: black; border:black;" */
+  #cancel_button {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+    color:white; 
+    border:black;
+    width: 300px;
+    margin-right: 60px;
+  }
+
+  #insert_button {
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    border: black;
+    width: 300px;
+    margin-left: 98px;
+  }
+
+
+a:link { text-decoration: none; color:white}
+
+a:visited { text-decoration: none; color:white}
+
+a:hover { text-decoration: none; color:white}
+
+a:active { text-decoration: none; color:white}
+
+input {
+    text-align: center;
+}
